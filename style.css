@@ -1,0 +1,98 @@
+html {
+
+    scroll-behavior: smooth
+}
+
+body {
+    background: rgb(93, 90, 228);
+    background: radial-gradient(circle,
+            rgba(93, 90, 228, 1) 0%,
+            rgba(63, 94, 251, 1) 20%,
+            rgba(252, 70, 107, 1) 90%);
+    text-align: center;
+    background-repeat: no-repeat;
+}
+
+img {
+    border-radius: 50%;
+    width: 100px;
+}
+
+h1 {
+    text-shadow: 2px 2px #7c4dff;
+    font-size: 20px;
+}
+
+#bio {
+    padding: 20px;
+    font-size: 18;
+    text-align: center;
+    font-family: 'Akaya Telivigala', cursive;
+}
+
+.menu {
+
+    list-style: none;
+
+    font-family: 'Akaya Telivigala', cursive;
+
+    float: right;
+
+    top: 10px;
+
+    right: 30px;
+
+    cursor: pointer;
+
+    color: black;
+
+}
+
+
+#welcome {
+
+    font-family: 'Akaya Telivigala', cursive;
+
+}
+
+img {
+
+    transition: transform .2s;
+
+    border: 10px solid #AAAAAA;
+
+}
+
+img:hover {
+
+    transform: scale(0.9);
+
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:black;
+}
+
+li {
+    float: left;
+    
+    color: aliceblue
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: #111;
+}
+
